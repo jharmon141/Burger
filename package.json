@@ -1,0 +1,25 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "eat-da-burger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jharmon141/Burger.git"
+  },
+  "author": "jharmon141",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jharmon141/Burger/issues"
+  },
+  "homepage": "https://github.com/jharmon141/Burger#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.13.0"
+  }
+}
