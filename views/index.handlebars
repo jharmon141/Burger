@@ -1,6 +1,6 @@
 <h2>Eat-da-Burger!</h2>
 
-<ul>
+<ol>
   {{#each burgers}}
     {{#unless this.devoured}}
       <li>
@@ -14,9 +14,9 @@
       </li>
     {{/unless}}
   {{/each}}
-</ul>
+</ol>
 
-<ul>
+<ol>
   {{#each burgers}}
     {{#if this.devoured}}
       <li>
@@ -29,7 +29,7 @@
       </li>
     {{/if}}
   {{/each}}
-</ul>
+</ol>
 
 <h2>Add a Burger</h2>
 <form class="create-update-form" action="/" method="POST">
