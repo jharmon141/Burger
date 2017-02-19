@@ -1,19 +1,8 @@
-li {
-  background: #FAEBD7;
-  margin: 5px;
-  padding: 5px;
+.jumbotron {
+    background-image: url("../img/hamburger-animated-gif-4.gif");
+    background-color: white;
 }
 
-.label {
-  font-weight: bold;
-}
-
-.create-update-form {
-  background: aqua;
-  margin: 5px;
-  padding: 5px;
-}
-
-.form-group {
-  margin-bottom: 5px;
+.btn-success, .btn-danger {
+    margin-top: 20px;
 }
